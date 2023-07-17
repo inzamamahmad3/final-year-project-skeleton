@@ -25,8 +25,6 @@ const Container = styled.div`
   height: 100vh;
   color: white;
   font-size: 14px;
-  position: sticky;
-  top: 0;
 `;
 
 const Wrapper = styled.div`
@@ -52,27 +50,6 @@ const Item = styled.div`
 const Img = styled.img`
   height: 25px;
 `;
-
-const Hr = styled.hr`
-  margin: 15px 0px;
-  border: 0.5px solid #373737;
-`;
-
-const Login = styled.div``;
-const Button = styled.div`
-  padding: 5px 15px;
-  background-color: transparent;
-  border: 1px solid #3ea6ff;
-  color: #3ea6ff;
-  border-radius: 3px;
-  font-weight: 500;
-  margin-top: 10px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 5px;
-`;
-
 function Menu() {
   return (
     <Container>
@@ -93,7 +70,6 @@ function Menu() {
           <SubscriptionsIcon />
           Subscriptions
         </Item>
-        <Hr />
         <Item>
           <LibraryAddOutlinedIcon />
           Library
@@ -101,56 +77,6 @@ function Menu() {
         <Item>
           <HistoryOutlinedIcon />
           History
-        </Item>
-        <Hr />
-        <Login>
-          Sign In to like video, Comment and Share
-          <Button>
-            {" "}
-            <AccountCircleOutlinedIcon /> SIGN IN
-          </Button>
-        </Login>
-        <Hr />
-        <Item>
-          <LibraryMusicOutlinedIcon />
-          Music
-        </Item>
-        <Item>
-          <SportsBasketballOutlinedIcon />
-          Sports
-        </Item>
-        <Item>
-          <SportsEsportsOutlinedIcon />
-          Gaming
-        </Item>
-        <Item>
-          <MovieOutlinedIcon />
-          Movies
-        </Item>
-        <Item>
-          <ArticleOutlinedIcon />
-          News
-        </Item>
-        <Item>
-          <LiveTvOutlinedIcon />
-          Live
-        </Item>
-        <Hr />
-        <Item>
-          <SettingsOutlinedIcon />
-          Settings
-        </Item>
-        <Item>
-          <FlagOutlinedIcon />
-          Report
-        </Item>
-        <Item>
-          <HelpOutlineOutlinedIcon />
-          Help
-        </Item>
-        <Item>
-          <SettingsBrightnessOutlinedIcon />
-          Dark Mode
         </Item>
       </Wrapper>
     </Container>

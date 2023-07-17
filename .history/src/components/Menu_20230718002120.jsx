@@ -25,8 +25,6 @@ const Container = styled.div`
   height: 100vh;
   color: white;
   font-size: 14px;
-  position: sticky;
-  top: 0;
 `;
 
 const Wrapper = styled.div`
@@ -58,21 +56,6 @@ const Hr = styled.hr`
   border: 0.5px solid #373737;
 `;
 
-const Login = styled.div``;
-const Button = styled.div`
-  padding: 5px 15px;
-  background-color: transparent;
-  border: 1px solid #3ea6ff;
-  color: #3ea6ff;
-  border-radius: 3px;
-  font-weight: 500;
-  margin-top: 10px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 5px;
-`;
-
 function Menu() {
   return (
     <Container>
@@ -102,14 +85,6 @@ function Menu() {
           <HistoryOutlinedIcon />
           History
         </Item>
-        <Hr />
-        <Login>
-          Sign In to like video, Comment and Share
-          <Button>
-            {" "}
-            <AccountCircleOutlinedIcon /> SIGN IN
-          </Button>
-        </Login>
         <Hr />
         <Item>
           <LibraryMusicOutlinedIcon />

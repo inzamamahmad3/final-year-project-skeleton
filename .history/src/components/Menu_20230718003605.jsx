@@ -25,8 +25,6 @@ const Container = styled.div`
   height: 100vh;
   color: white;
   font-size: 14px;
-  position: sticky;
-  top: 0;
 `;
 
 const Wrapper = styled.div`
@@ -105,10 +103,7 @@ function Menu() {
         <Hr />
         <Login>
           Sign In to like video, Comment and Share
-          <Button>
-            {" "}
-            <AccountCircleOutlinedIcon /> SIGN IN
-          </Button>
+          <Button> SIGN IN</Button>
         </Login>
         <Hr />
         <Item>
