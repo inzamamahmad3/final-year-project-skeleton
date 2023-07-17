@@ -2,13 +2,8 @@ import styled from "styled-components";
 import Menu from "./components/Menu";
 import Navbar from "./components/Navbar";
 
-const Container = styled.div`
-  display: flex;
-`;
-const Main = styled.div`
-  flex: 7;
-`;
-const Wrapper = styled.div``;
+const Container = styled.div``;
+const Main = styled.div``;
 
 function App() {
   return (
@@ -17,7 +12,6 @@ function App() {
         <Menu />
         <Main>
           <Navbar />
-          <Wrapper>Video Cards</Wrapper>
         </Main>
       </Container>
     </>
