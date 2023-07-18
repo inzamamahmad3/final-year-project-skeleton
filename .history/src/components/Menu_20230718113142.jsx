@@ -113,10 +113,10 @@ function Menu({ darkMode, setDarkMode }) {
         <Login>
           Sign In to like video, Comment and Share
           <Button>
+            {" "}
             <AccountCircleOutlinedIcon /> SIGN IN
           </Button>
         </Login>
-        <Title>BEST OF LAMATUBE</Title>
         <Hr />
         <Item>
           <LibraryMusicOutlinedIcon />

@@ -113,6 +113,7 @@ function Menu({ darkMode, setDarkMode }) {
         <Login>
           Sign In to like video, Comment and Share
           <Button>
+            {" "}
             <AccountCircleOutlinedIcon /> SIGN IN
           </Button>
         </Login>

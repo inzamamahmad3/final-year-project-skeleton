@@ -55,7 +55,7 @@ const Img = styled.img`
 
 const Hr = styled.hr`
   margin: 15px 0px;
-  border: 0.5px solid ${({ theme }) => theme.soft};
+  border: 0.5px solid #373737;
 `;
 
 const Login = styled.div``;
@@ -73,14 +73,7 @@ const Button = styled.div`
   gap: 5px;
 `;
 
-const Title = styled.h2`
-  font-size: 14px;
-  font-weight: 500;
-  color: #aaaaaa;
-  margin-bottom: 20px;
-`;
-
-function Menu({ darkMode, setDarkMode }) {
+function Menu() {
   return (
     <Container>
       <Wrapper>
@@ -113,10 +106,10 @@ function Menu({ darkMode, setDarkMode }) {
         <Login>
           Sign In to like video, Comment and Share
           <Button>
+            {" "}
             <AccountCircleOutlinedIcon /> SIGN IN
           </Button>
         </Login>
-        <Title>BEST OF LAMATUBE</Title>
         <Hr />
         <Item>
           <LibraryMusicOutlinedIcon />
@@ -155,9 +148,9 @@ function Menu({ darkMode, setDarkMode }) {
           <HelpOutlineOutlinedIcon />
           Help
         </Item>
-        <Item onClick={() => setDarkMode(!darkMode)}>
+        <Item>
           <SettingsBrightnessOutlinedIcon />
-          Light Mode
+          Dark Mode
         </Item>
       </Wrapper>
     </Container>

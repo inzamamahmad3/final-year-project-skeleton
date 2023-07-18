@@ -1,7 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
-import { SearchOutlined } from "@mui/icons-material";
 
 const Container = styled.div`
   position: sticky;
@@ -58,12 +56,10 @@ const Navbar = () => {
     <Container>
       <Wrapper>
         <Search>
-          <Input placeholder="search" />
-          <SearchOutlined />
+          <Button>
+            <AccountCircleOutlinedIcon /> SIGN IN
+          </Button>
         </Search>
-        <Button>
-          <AccountCircleOutlinedIcon /> SIGN IN
-        </Button>
       </Wrapper>
     </Container>
   );

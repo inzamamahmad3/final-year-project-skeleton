@@ -58,8 +58,8 @@ const Navbar = () => {
     <Container>
       <Wrapper>
         <Search>
-          <Input placeholder="search" />
-          <SearchOutlined />
+          <input placeholder="search" />
+          <SearchOutlinedIcon />
         </Search>
         <Button>
           <AccountCircleOutlinedIcon /> SIGN IN

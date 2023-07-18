@@ -73,13 +73,6 @@ const Button = styled.div`
   gap: 5px;
 `;
 
-const Title = styled.h2`
-  font-size: 14px;
-  font-weight: 500;
-  color: #aaaaaa;
-  margin-bottom: 20px;
-`;
-
 function Menu({ darkMode, setDarkMode }) {
   return (
     <Container>
@@ -113,10 +106,10 @@ function Menu({ darkMode, setDarkMode }) {
         <Login>
           Sign In to like video, Comment and Share
           <Button>
+            {" "}
             <AccountCircleOutlinedIcon /> SIGN IN
           </Button>
         </Login>
-        <Title>BEST OF LAMATUBE</Title>
         <Hr />
         <Item>
           <LibraryMusicOutlinedIcon />

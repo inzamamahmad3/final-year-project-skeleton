@@ -58,7 +58,7 @@ const Navbar = () => {
     <Container>
       <Wrapper>
         <Search>
-          <Input placeholder="search" />
+          <input placeholder="search" />
           <SearchOutlined />
         </Search>
         <Button>

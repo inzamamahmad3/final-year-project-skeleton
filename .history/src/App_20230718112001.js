@@ -9,7 +9,7 @@ const Container = styled.div`
 `;
 const Main = styled.div`
   flex: 7;
-  background-color: ${({ theme }) => theme.bg};
+  background-color: #181818;
 `;
 const Wrapper = styled.div``;
 
@@ -19,7 +19,7 @@ function App() {
     <>
       <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
         <Container>
-          <Menu darkMode={darkMode} setDarkMode={setDarkMode} />
+          <Menu />
           <Main>
             <Navbar />
             <Wrapper>Video Cards</Wrapper>
