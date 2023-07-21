@@ -5,8 +5,6 @@ import ThumbDownOffAltOutlinedIcon from "@mui/icons-material/ThumbDownOffAltOutl
 import ReplyOutlinedIcon from "@mui/icons-material/ReplyOutlined";
 import AddTaskOutlinedIcon from "@mui/icons-material/AddTaskOutlined";
 import inzi from "../img/pic.png";
-import Comments from "../components/Comments";
-import Card from "../components/Card";
 
 const Container = styled.div`
   display: flex;
@@ -138,39 +136,11 @@ const Video = () => {
         <Channel>
           <ChannelInfo>
             <Image src={inzi} />
-            <ChannelDetail>
-              <ChannelName>Inzamam Ahmad</ChannelName>
-              <ChannelCounter>200K subscribers</ChannelCounter>
-              <Description>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Voluptas culpa deleniti cupiditate harum odio dolore nulla
-                laudantium libero. Veniam beatae hic fugit id quo cum. Est
-                doloribus iste incidunt aut.
-              </Description>
-            </ChannelDetail>
           </ChannelInfo>
           <Subscribe> Subscribe</Subscribe>
         </Channel>
-        <Hr />
-        <Comments />
       </Content>
-      <Recommendation>
-        <Card type="sm" />
-        <Card type="sm" />
-        <Card type="sm" />
-        <Card type="sm" />
-        <Card type="sm" />
-        <Card type="sm" />
-        <Card type="sm" />
-        <Card type="sm" />
-        <Card type="sm" />
-        <Card type="sm" />
-        <Card type="sm" />
-        <Card type="sm" />
-        <Card type="sm" />
-        <Card type="sm" />
-        <Card type="sm" />
-      </Recommendation>
+      <Recommendation> Recommendation</Recommendation>
     </Container>
   );
 };

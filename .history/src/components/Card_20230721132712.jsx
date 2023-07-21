@@ -57,9 +57,9 @@ const Card = ({ type }) => {
   return (
     <Link to="/video/test" style={{ textDecoration: "none" }}>
       <Container type={type}>
-        <Image type={type} src={aws} />
-        <Details type={type}>
-          <ChannelImage type={type} src={inzi} />
+        <Image src={aws} />
+        <Details>
+          <ChannelImage src={inzi} />
           <Texts>
             <Title>Test Video</Title>
             <ChannelName>Inzamam Ahmad</ChannelName>

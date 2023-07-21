@@ -4,9 +4,6 @@ import ThumbUpOutlinedIcon from "@mui/icons-material/ThumbUpOutlined";
 import ThumbDownOffAltOutlinedIcon from "@mui/icons-material/ThumbDownOffAltOutlined";
 import ReplyOutlinedIcon from "@mui/icons-material/ReplyOutlined";
 import AddTaskOutlinedIcon from "@mui/icons-material/AddTaskOutlined";
-import inzi from "../img/pic.png";
-import Comments from "../components/Comments";
-import Card from "../components/Card";
 
 const Container = styled.div`
   display: flex;
@@ -54,53 +51,6 @@ const Button = styled.div`
   cursor: pointer;
 `;
 
-const Channel = styled.div`
-  display: flex;
-  justify-content: space-between;
-`;
-
-const ChannelInfo = styled.div`
-  display: flex;
-  gap: 20px;
-`;
-
-const Image = styled.img`
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-`;
-
-const ChannelDetail = styled.div`
-  display: flex;
-  flex-direction: column;
-  color: ${({ theme }) => theme.text};
-`;
-
-const ChannelName = styled.span`
-  font-weight: 500;
-`;
-
-const ChannelCounter = styled.span`
-  margin-top: 5px;
-  margin-bottom: 20px;
-  color: ${({ theme }) => theme.textSoft};
-  font-size: 12px;
-`;
-
-const Description = styled.p`
-  font-size: 14px;
-`;
-const Subscribe = styled.button`
-  background-color: #cc1a00;
-  font-weight: 500;
-  color: white;
-  border: none;
-  border-radius: 3px;
-  height: max-content;
-  padding: 10px 20px;
-  cursor: pointer;
-`;
-
 const Video = () => {
   return (
     <Container>
@@ -133,44 +83,10 @@ const Video = () => {
               <AddTaskOutlinedIcon /> Save
             </Button>
           </Buttons>
+          <Hr />
         </Details>
-        <Hr />
-        <Channel>
-          <ChannelInfo>
-            <Image src={inzi} />
-            <ChannelDetail>
-              <ChannelName>Inzamam Ahmad</ChannelName>
-              <ChannelCounter>200K subscribers</ChannelCounter>
-              <Description>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Voluptas culpa deleniti cupiditate harum odio dolore nulla
-                laudantium libero. Veniam beatae hic fugit id quo cum. Est
-                doloribus iste incidunt aut.
-              </Description>
-            </ChannelDetail>
-          </ChannelInfo>
-          <Subscribe> Subscribe</Subscribe>
-        </Channel>
-        <Hr />
-        <Comments />
       </Content>
-      <Recommendation>
-        <Card type="sm" />
-        <Card type="sm" />
-        <Card type="sm" />
-        <Card type="sm" />
-        <Card type="sm" />
-        <Card type="sm" />
-        <Card type="sm" />
-        <Card type="sm" />
-        <Card type="sm" />
-        <Card type="sm" />
-        <Card type="sm" />
-        <Card type="sm" />
-        <Card type="sm" />
-        <Card type="sm" />
-        <Card type="sm" />
-      </Recommendation>
+      <Recommendation> Recommendation</Recommendation>
     </Container>
   );
 };

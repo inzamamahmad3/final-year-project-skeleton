@@ -15,7 +15,7 @@ const Container = styled.div`
 
 const Image = styled.img`
   width: 100%;
-  height: ${(props) => (props.type === "sm" ? "120px" : "202px")};
+  height: ${(props) => (props.type === "sm" ? "100px" : "202px")};
   background-color: #999;
   flex: 1;
 `;
@@ -57,9 +57,9 @@ const Card = ({ type }) => {
   return (
     <Link to="/video/test" style={{ textDecoration: "none" }}>
       <Container type={type}>
-        <Image type={type} src={aws} />
-        <Details type={type}>
-          <ChannelImage type={type} src={inzi} />
+        <Image src={aws} />
+        <Details>
+          <ChannelImage src={inzi} />
           <Texts>
             <Title>Test Video</Title>
             <ChannelName>Inzamam Ahmad</ChannelName>
