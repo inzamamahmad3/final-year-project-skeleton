@@ -39,7 +39,6 @@ const Logo = styled.div`
   gap: 5px;
   font-weight: bold;
   margin-bottom: 25px;
-  cursor: pointer;
 `;
 
 const Item = styled.div`
@@ -85,11 +84,11 @@ function Menu({ darkMode, setDarkMode }) {
   return (
     <Container>
       <Wrapper>
-        <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
-          <Logo>
-            <Img src={watch} />
-            WatchMedia
-          </Logo>
+        <Link to={"/"} </Link>>
+        <Logo>
+          <Img src={watch} />
+          WatchMedia
+        </Logo>
         </Link>
         <Item>
           <HomeIcon />

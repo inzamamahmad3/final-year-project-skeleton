@@ -39,7 +39,6 @@ const Logo = styled.div`
   gap: 5px;
   font-weight: bold;
   margin-bottom: 25px;
-  cursor: pointer;
 `;
 
 const Item = styled.div`

@@ -14,9 +14,7 @@ const Main = styled.div`
   flex: 7;
   background-color: ${({ theme }) => theme.bg};
 `;
-const Wrapper = styled.div`
-  padding: 22px 96px;
-`;
+const Wrapper = styled.div``;
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
@@ -31,9 +29,9 @@ function App() {
               <Wrapper>
                 <Routes>
                   <Route path="/">
-                    <Route index element={<Home />} />
+                    <Route index element={Home} />
                     <Route path="video">
-                      <Route path=":id" element={<Video />} />
+                      <Route path=":id" element={Video} />
                     </Route>
                   </Route>
                 </Routes>
