@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
 import { SearchOutlined } from "@mui/icons-material";
-import { Link } from "react-router-dom";
 
 const Container = styled.div`
   position: sticky;

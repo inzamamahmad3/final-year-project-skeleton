@@ -119,11 +119,9 @@ function Menu({ darkMode, setDarkMode }) {
         <Hr />
         <Login>
           Sign In to like video, Comment and Share
-          <Link to="signin" style={{ textDecoration: "none" }}>
-            <Button>
-              <AccountCircleOutlinedIcon /> SIGN IN
-            </Button>
-          </Link>
+          <Button>
+            <AccountCircleOutlinedIcon /> SIGN IN
+          </Button>
         </Login>
         <Title>BEST OF LAMATUBE</Title>
         <Hr />
